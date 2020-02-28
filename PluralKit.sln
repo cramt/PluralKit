@@ -1,16 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluralKit.Bot", "PluralKit.Bot\PluralKit.Bot.csproj", "{F2C5562D-FD96-4C11-B54E-93737D127959}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PluralKit.Bot", "PluralKit.Bot\PluralKit.Bot.csproj", "{F2C5562D-FD96-4C11-B54E-93737D127959}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluralKit.Core", "PluralKit.Core\PluralKit.Core.csproj", "{5DBE037D-179D-4C05-8A28-35E37129C961}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PluralKit.Core", "PluralKit.Core\PluralKit.Core.csproj", "{5DBE037D-179D-4C05-8A28-35E37129C961}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluralKit.API", "PluralKit.API\PluralKit.API.csproj", "{3420F8A9-125C-4F7F-A444-10DD16945754}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PluralKit.API", "PluralKit.API\PluralKit.API.csproj", "{3420F8A9-125C-4F7F-A444-10DD16945754}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discord.Net.WebSocket", "Discord.Net\src\Discord.Net.WebSocket\Discord.Net.WebSocket.csproj", "{5FE544F8-310F-410A-8590-7B78469B5B9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discord.Net.WebSocket", "Discord.Net\src\Discord.Net.WebSocket\Discord.Net.WebSocket.csproj", "{5FE544F8-310F-410A-8590-7B78469B5B9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discord.Net.Core", "Discord.Net\src\Discord.Net.Core\Discord.Net.Core.csproj", "{D6376AC6-9BE4-49CE-99CD-061879B400D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discord.Net.Core", "Discord.Net\src\Discord.Net.Core\Discord.Net.Core.csproj", "{D6376AC6-9BE4-49CE-99CD-061879B400D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discord.Net.Rest", "Discord.Net\src\Discord.Net.Rest\Discord.Net.Rest.csproj", "{4723EEE6-322B-41A1-BD89-03219E181E38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discord.Net.Rest", "Discord.Net\src\Discord.Net.Rest\Discord.Net.Rest.csproj", "{4723EEE6-322B-41A1-BD89-03219E181E38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluralKit.Test", "PluralKit.Test\PluralKit.Test.csproj", "{37D602A7-E882-45FE-9D03-BE2E6E2464F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,5 +47,15 @@ Global
 		{4723EEE6-322B-41A1-BD89-03219E181E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4723EEE6-322B-41A1-BD89-03219E181E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4723EEE6-322B-41A1-BD89-03219E181E38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37D602A7-E882-45FE-9D03-BE2E6E2464F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37D602A7-E882-45FE-9D03-BE2E6E2464F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37D602A7-E882-45FE-9D03-BE2E6E2464F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37D602A7-E882-45FE-9D03-BE2E6E2464F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFB2A5F7-9C80-4409-BBA8-67AC1C152934}
 	EndGlobalSection
 EndGlobal
